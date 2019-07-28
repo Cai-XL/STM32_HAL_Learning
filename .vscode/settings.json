@@ -1,0 +1,12 @@
+{
+    "C_Cpp.default.includePath": 
+        [
+            "./Drivers/STM32H7xx_HAL_Driver/Inc/**",            //HAL库头文件目录
+            "./Drivers/CMSIS/Device/ST/STM32H7xx/Include/**",   //STM32H7设备目录
+            "./Drivers/CMSIS/Include/**",                       //Cortex-M内核文件目录
+            "./Projects/STM32H743ZI-Nucleo/Templates/Inc/**",   //Nucleo开发板模板文件目录
+            "./Drivers/BSP/STM32H7xx_Nucleo_144/**"             //Nucleo开发板板级支持包目录            
+        ],
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.dimInactiveRegions": false,
+}
